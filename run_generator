@@ -1,0 +1,8 @@
+
+
+fname=./genJsonEsp/build/esp32.esp32.esp32/genJsonEsp.ino.elf
+
+gdb -q $fname -x ./genJson.py -batch 
+
+cp genJson.ino ./genJsonEsp/z_genJson.ino
+
